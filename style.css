@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:  linear-gradient(to bottom, rgb(7, 7, 7) 31%, rgb(31, 30, 30) 100%);
+}
+
+.logo{
+  width: 80px;
+  cursor: pointer;
+  transition: all 3s;
+  transition-timing-function: ease-in-out;
+  
+}
+
+.logo:hover{
+  transform: rotate(1080deg);
+}
+
+.lista{
+  color: white;
+  list-style-type: none;
+  display: flex;
+ 
+  
+}
+
+.li1:hover{
+  background: rgb(179, 176, 176);
+  font-size: 20px;
+}
+
+li{
+  margin: 20px;
+  cursor: pointer;
+}
+
+
+
+.menu{
+  display: flex;
+}
+
+.img1{
+ position: relative;
+ top: 0%;
+ left: 0%;
+ margin-left: 20px;
+ border-top-left-radius: inset 60px;
+
+}
+
+.img2{
+  position: absolute; 
+  top: 47%;
+  left: 6px;
+  right: 10px;
+  margin: 45px;
+  
+}
+.bio{
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  width: 500px;
+  display: flex;
+
+}
+
+.btn_play{ 
+  border-bottom-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  border-top-right-radius: 8px 8px;
+  border-top-left-radius: 8px 8px;
+  padding: 0.6rem 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  font-weight: 645;
+  width:auto;
+  height: 40px;
+  margin-right: 0.75rem;
+  border: solid transparent;
+  cursor: pointer;
+
+}
+
+.btn_play:hover {
+  background-color: rgb(179, 179, 176);
+  font-size: 20px;
+}
+
+.btn_info{
+  border-bottom-left-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  border-top-right-radius: 8px 8px;
+  border-top-left-radius: 8px 8px;
+  padding: 0.6rem 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  font-weight: 645;
+  width: auto;
+  height: 40px;
+  background-color: rgb(109, 109, 110, 0.7);
+  color: white;
+  border: solid transparent;
+  margin-right: 0.75rem;
+  cursor: pointer;
+
+}
+
+.btn_info:hover{
+  background-color: rgb(179,179,176);
+  font-size: 20px;
+}
+
+.todos-os-filmes{
+  white-space: nowrap;
+  height: auto;
+}
+
+.lista-filmes{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.filme{
+  display: inline-block; 
+  cursor: pointer;
+  width: 160px;
+  margin-right: 20px;
+  clear: both;
+  
+}
+h2{
+  color: #e5e5e5e5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  
+}
+
+.imgs{
+  height: 100px;
+  padding: 0%;
+  margin: 10px;
+  margin-left: 10px;
+  transition: transform 0.6s;
+}
+
+.imgs:hover{
+  transform: scale(2);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+    
+}
+
+
+.icons{
+  width: 30px;
+  margin-left: 10px;
+
+}
+
+.icon2{
+  width: 25px;
+  
+}
+
+.cols{
+  padding: 5px;
+  max-height: 200px;
+  color: #9c9c9ce5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-left: 20px;
+
+  
+}
+
+.cols span:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.cols span{
+  border-radius: 5px;
+
+
+}
+
+
+
+
